@@ -1,11 +1,11 @@
 import image from '../assets/landing-page.jpg' ; 
 
-export const Header = () => {
+export const HeroSection = ({setDisplay}) => {
   return (
     <>
-      <main className="hero-section main ">
+      <main className="hero-section main" onClick={()=> setDisplay("none")}>
         <div className="container">
-          <div className=" banner-column ">
+          <div className="banner-column">
             <div className="banner-inner">
               <h1 className="heading-xl">
                 
