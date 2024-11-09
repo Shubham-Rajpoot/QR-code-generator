@@ -1,5 +1,5 @@
 .hero-section {
-  height: 100vh;
+  height: 500px;
   margin-top: 5rem;
 }
 
@@ -78,6 +78,9 @@ button {
 .container {
   border-color: aqua;
   border-radius: 5px;
+}
+.generate-qr-ancor{
+  color:inherit;
 }
 
 @media screen and (max-width: 990px) {

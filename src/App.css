@@ -70,3 +70,50 @@ nav ul {
   position: absolute;
   background-color: #fff;
 }
+
+.input-container{
+  background-color: #ddd;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  /* justify-content: center; */
+  justify-content:space-evenly;
+  margin-top: 50px;
+  max-width: 1200px;
+  margin-inline: auto;
+  height: 600px;
+  
+}
+
+input[type="text"] {
+  width: 500px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+input[type="text"]:focus {
+  border-color: #b82b71;
+}
+
+.qr-code-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #931c5c;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  
+}
+
+
+.logo{
+  display: flex;
+  align-items: center;
+}

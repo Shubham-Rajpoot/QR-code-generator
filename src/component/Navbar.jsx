@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import DropDown from "../assets/bar.png"
 import HamMenu from "./HamMenu";
+import logo from "../assets/logo.png" ;
 
 function Navbar({setDisplay, display}) {
   const width = window.screen.width;
@@ -12,6 +13,7 @@ function Navbar({setDisplay, display}) {
         <div className="container">
           <div className="grid  navbar-grid">
             <div className="logo">
+              <img src={logo} alt="logo" width={"75px"} />
               <h1>qr-code-generator</h1>
             </div>
 
@@ -25,7 +27,7 @@ function Navbar({setDisplay, display}) {
                     <a href="#">About</a>
                   </li>
                   <li>
-                    <a href="#">Service</a>
+                    <a href="#"><button>Login/SignUp</button></a>
                   </li>
                 </ul>
               </nav>

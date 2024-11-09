@@ -10,15 +10,14 @@ export const HeroSection = ({setDisplay}) => {
               <h1 className="heading-xl">
                 
                Create custom QR codes in seconds
-                – fast, easy, and free!
+                – fast, easy and free!
               </h1>
               <p className="paragraph">
-                We stores all your most important files in one secure location.
-                Access them whenever needed, share and collaborate with your
-                connections.
+              Create eye-catching, custom QR codes in seconds! Instantly share links, contact info, and more with a simple scan, designed to match your brand or personal style.
               </p>
-              <button className="btn btn-darken btn-inline">
-                Generate qrcode<i className="bx bx-right-arrow-alt"></i>
+              <button className="btn btn-darken btn-inline" >
+                <a href="#qr-page" className='generate-qr-ancor'> Generate qrcode<i className="bx bx-right-arrow-alt"></i></a>
+               
               </button>
             </div>
             <div className="banner-img">
