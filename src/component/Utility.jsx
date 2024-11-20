@@ -41,8 +41,8 @@ const Utility = () => {
             <QRCodeCanvas
               value={inputtext}
               size={200}
-              bgColor="#000000"
-              fgColor="#ffffff"
+              bgColor='#ffffff'
+              fgColor='#000000'
               level="H"
               margin={10}
             />
